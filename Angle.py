@@ -2,11 +2,14 @@
 # To add a new markdown cell, type '# %% [markdown]'
 
 # %%
+
 from numpy import *
 from scipy.linalg import norm
 
 
 # %%
+
+#ロドリゲスの回転公式
 def rot(p, theta):
     pn = norm(p)
     n=p/pn
